@@ -1,26 +1,4 @@
 {
-  "name": "spring",
-  "version": "0.1.0",
-  "private": true,
-  "main":"template.json",
-  "keywords": [
-    "react",
-    "create-react-app",
-    "cra-template",
-    "template",
-    "redux",
-    "react-redux",
-    "react-router",
-    "react-router-dom",
-    "typescript",
-    "antd",
-    "less",
-    "config-override"
-  ],
-  "files": [
-    "template", 
-    "template.json"
-  ],
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@reduxjs/toolkit": "^1.5.1",
@@ -50,10 +28,7 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject",
-    "clean-files": "rm -rf ./template/public ./template/src",
-    "copy-files": "cp -a ./src/. template/src && cp -a ./public/. template/public",
-    "prepublishOnly": "yarn clean-files && yarn copy-files"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
