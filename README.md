@@ -1,9 +1,13 @@
-## Why name this project "Spring"
-Spring is the beginning of the four seasons of the year
+## Cra Template Spring
+A Create React App template With antd, redux, react-router-dom, support typescript and less etc. 
+
+
+## Why name this project as "Spring"
+Spring is the beginning of a year
 let's start every sapling(demo) here.
 
-A sapling can grown up to huge tree. 
-A demo can grown up to awesome project.
+> A sapling can grown up to huge tree, 
+And a demo can grown up to awesome project.
 
 
 ## Need Redux?
