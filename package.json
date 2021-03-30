@@ -1,7 +1,7 @@
 {
   "name": "cra-template-spring",
-  "version": "0.1.0",
-  "main":"template.json",
+  "version": "0.1.1",
+  "main": "template.json",
   "keywords": [
     "react",
     "create-react-app",
@@ -17,7 +17,7 @@
     "config-override"
   ],
   "files": [
-    "template", 
+    "template",
     "template.json"
   ],
   "dependencies": {
