@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Home from '@/modules/home';
-import LeafletMap from '@/modules/leaflet-map';
+import About from '@/modules/about';
 
 export default class RouteConfig extends React.Component<{}, {}>{
   render() {
@@ -10,7 +10,7 @@ export default class RouteConfig extends React.Component<{}, {}>{
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/leafletMap" component={LeafletMap} />
+          <Route path="/about" component={About} />
         </Switch>
       </BrowserRouter>
     )
